@@ -1,20 +1,32 @@
 ul {
-	margin: 0;
-	padding: 0;
-}
-
-li {
+	margin: 0px;
+	padding: 0px;
 	list-style-type: none;
 }
 
-
-a {	
+ul a {
+	border: 1px solid black;
 	display: block;
-	border: 1px, solid, black;
-	width: 400px;
-	height: 40px;
+	text-indent: 40px;
 	text-decoration: none;
 	color: black;
-	background: url(imagens/menu.png);
+	width: 200px;
+	height: 40px;
+	background: #f7b600 url(../imagens/menu.png) no-repeat center left;
+	line-height: 40px;
 }
 
+ul a:hover {
+	background: #f99200 center right;
+	color: white;
+}
+
+#home #navegacao .home a,
+#noticias #navegacao .noticias a,
+#esportes #navegacao .esportes a,
+#sobre #navegacao .sobre a,
+#contato #navegacao .contato a {	
+	background-color: #f99200;
+	background-position:  center right;
+	color: white;	
+}
