@@ -17,7 +17,8 @@ ul a {
 }
 
 ul a:hover {
-	background: #f99200 center right;
+	background-color: #f99200;
+	background-position:  center right;
 	color: white;
 }
 
