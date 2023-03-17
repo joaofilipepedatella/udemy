@@ -135,7 +135,7 @@ ul#navegacao a:hover {
     padding: 20px 0px;
 }
 
-.conteudo {
+.conteudo-site {
     margin: 0 auto;
     width: 90%;
 }
@@ -173,4 +173,15 @@ footer {
 	padding: 16px;
 	background: #fff url(../imagens/bg-rodape.png) repeat-x top;
 	color: #7d7640;
+}
+
+h3 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
 }
