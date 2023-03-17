@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(../imagens/fundo.png) repeat-x;
+}
+
+main {
+    width: 750px;
+    margin: 0px auto;
+}
+
+header {
+    height: 150px;
+    padding-top: 25px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+header img {
+    display: block;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header ul {
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+header ul li {
+    float: left;
+}
+
+header ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+header ul .primeiro a {
+    background: none;
+}
+
+header ul a:hover {
+    color: #69001d;
+}
+
+body.fotos #navegacao a#fotos,
+body.ciencia #navegacao a#ciencia,
+body.saude #navegacao a#saude,
+body.economia #navegacao a#economia,
+body.internacional #navegacao a#internacional,
+body.brasil #navegacao a#brasil,
+body.home #navegacao a#home {
+    color: #fff;
+    background-color: #de003e;
+    cursor: text;
+}
+
+/* ----------------------------------------------------------------------------------------*/
+
+section {
+    margin-top: 60px;
+    background-color: #f5f5f5;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 0px;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+.caixa {
+    background: #fff url(../imagens/fundo-caixa.png);
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    
+}
+
+footer {
+    background: #294c71;
+    padding: 20px;
+}
+
+footer p {
+    width: 750px;
+    margin: auto;
+    color: #fff;
+}
