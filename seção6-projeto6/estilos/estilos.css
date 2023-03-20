@@ -19,6 +19,8 @@ a:hover {
     color: #227115;
 }
 
+/* ----------------------------------------- */
+
 #logo h1 {
     float: left;
 }
@@ -30,6 +32,8 @@ a:hover {
     display: block;
     background: url(../imagens/logo.png) no-repeat;
 }
+
+/* ----------------------------------------- */
 
 header {
     padding: 15px 0px;
@@ -55,4 +59,126 @@ nav ul li a:link {
 
 nav ul li a:hover {
     border-bottom: 1px solid #535858;
+}
+
+/* ----------------------------------------- */
+
+#conteudo {
+    width: 710px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 350px;
+    float: right;
+    background-color: #ebe7dd;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+section#visita {
+    background-color: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+section#galeria {
+    padding: 0 27px;
+}
+
+section#galeria a {
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px;
+    margin: 10px 0 0 20px;
+}
+
+section#galeria img {
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+article#historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+
+h3 {
+    color: #227115;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+}
+
+/* --------------Formulário----------------- */
+
+input {
+    height: 20px;
+    width: 80px;
+    background-color: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+input.campo {
+    border: 1px solid #ada484;
+}
+
+input.botao {
+    background-color: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+fieldset{
+    border: none;
+}
+
+legend {
+    display: none;
+}
+
+
+/* --------------------footer--------------- */
+
+footer {
+    clear: both;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../imagens/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+}
+
+footer > p a {
+    padding: 2px 10px;
 }
