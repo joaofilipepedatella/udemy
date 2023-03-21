@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    border: 1px solid yellow;
+    
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    background-color: white;
+    
+}
+
+#direction {
+
+    /* row (padrão) - row-reverse - column - column-reverse */
+    flex-direction: row-reverse;
+
+}
+
+#wrap {
+
+    /* no-wrap (padrão) - wrap - wrap-reverse */
+    flex-wrap: wrap;
+
+}
+
+#jus-cont {
+
+    /* flex-start (padrão) - flex-end - center - space-between - space-around */
+    /* usado para "centralização" de acordo com largura */
+    justify-content: space-around;
+
+}
+
+#ali-itens {
+
+    /* stretch (padrão) - center - flex-start - flex-end - baseline */
+    /* usado para "centralização" de acordo com altura */
+    align-items: center;
+
+}
+
+#order {
+
+    /* numero da ordem que deve aparecer os conteúdos */
+    /* Criar uma classe para cada conteúdo e colocar um valor em "order" */
+    /* Exemplo: <div class="xxxx"> No style fica "".xxxx { order: "1" } */
+    /* "0" é padrão */
+    justify-content: center;
+
+}
+
+.order1 {
+    order: 4;
+}
+
+.order2 {
+    order: 3;
+}
+
+.order3 {
+    order: 2;
+}
+
+.order4 {
+    order: 1;
+}
+
+#f-grow {
+
+    /* -flex-grow: "X"; Onde X é o número da prioridade do crescimento e utilização do espaço excedente */
+    /* 0 é o padrão e crescem de forma igual */
+    /* Criar uma classe para definir qual o nível de crescimento */
+    /* Quanto maior o número, maior a prioridade no crescimento da caixa */
+    justify-content: center;
+
+}
+
+.grow0 {
+    flex-grow: 0;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 2;
+}
+
+.grow3 {
+    flex-grow: 3;
+}
+
+#f-shrink {
+
+    /* -flex-shrink: "X"; Onde o número da prioridade de diminuição é definido */
+    /* Segue a mesma lógica do Grow, porém para "apertar" a caixa */
+    /* Quanto maior o número, mais ele aperta */
+    justify-content: center;
+
+}
+
+.shrink0 {
+    flex-shrink: 0;
+}
+
+.shrink1 {
+    flex-shrink: 1;
+}
+
+.shrink2 {
+    flex-shrink: 2;
+}
+
+.shrink3 {
+    flex-shrink: 3;
+}
+
+#f-basis {
+
+    /* Indica o tamanho inicial do flex item abtes da distribuição do espaço */
+    /* Padrão é "auto" */
+    /* Usa-se um valor da width para designar. Por Exemplo: "300px" */
+    
+    justify-content: center; /* para melhor visualização */
+
+}
+
+.basis0 {
+    flex-basis: auto;
+}
+
+.basis1 {
+    flex-basis: 400px;
+}
