@@ -14,8 +14,6 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* home */
-
 header {
     width: 100%;
 }
@@ -43,6 +41,8 @@ nav.navbar-transparente {
     background-color: white;
     margin: 12px 15px;
 }
+
+/* home */
 
 .capa {
     text-align: center;
@@ -72,6 +72,19 @@ nav.navbar-transparente {
 .btn-branco:hover {
     background-color: white;
     color: black;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+}
+    
+.carousel-item {
+    height: 40vh; /* ajusta a altura do item do carrossel */
 }
 
 .caixa {
@@ -167,6 +180,7 @@ h3 {
 @media (max-width: 575.98px) { 
     .btn-custom {
         margin: 12px 15px;
+        font-size: 1em;
     }
 }
 
