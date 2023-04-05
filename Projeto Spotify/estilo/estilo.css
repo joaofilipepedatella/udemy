@@ -84,7 +84,7 @@ nav.navbar-transparente {
 }
     
 .carousel-item {
-    height: 40vh; /* ajusta a altura do item do carrossel */
+    height: 40vh; /* ajusta a altura do item do carrossel */    
 }
 
 .caixa {
@@ -181,6 +181,10 @@ h3 {
     .btn-custom {
         margin: 12px 15px;
         font-size: 1em;
+    }
+
+    .carousel-item {
+        height: 55vh; /* ajusta a altura do item do carrossel */    
     }
 }
 
