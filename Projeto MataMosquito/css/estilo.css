@@ -8,9 +8,10 @@ html {
 body {
     background-image: url(../imagens/bg.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    
 }
 
 .mosquito1 {
@@ -55,4 +56,23 @@ body {
     float: left;
     font-size: 20px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1160px) {
+    body {
+        background-image: url(../imagens/bg.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+    }
+    .caixa1 {
+        margin-top: 100px;
+    }
+
+    .caixa2{
+        margin-top: 100px;
+    }
+    .caixa1 img {
+        width: 300px;
+    }
 }
