@@ -23,15 +23,18 @@
         </div>
 
         <div class="tempo"> 
-            Tempo restante: ?
+            Tempo restante: <span id="cronometro"></span>
         </div>        
 
     </div>
 
     <script>
-        setInterval(function() {
+
+        document.getElementById('cronometro').innerHTML = tempo
+
+        var criaMosca = setInterval(function() {
         posicaoRandomica()
-        }, 1000) 
+        }, criaMoscaTempo) 
         //chama no final para que exista a criação do body.
     </script>
 
